@@ -1,6 +1,38 @@
+.navbar {
+  margin-bottom: 0;
+  left: 0;
+  font-size: 120%;
+  z-index: 3;
+}
+
+#header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 0 0 0;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #555;
+  width: 100%;
+}
+
+#header-nav a {
+  display: block !important;
+  color: #DDD;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 14px 14px 14px;
+}
+
+#header-nav a:hover {
+  padding: 14px 14px 14px 14px;
+  background-color: #CF5000;
+}
+
 body {
   margin: 1.4em;
   background-color: #266A2E;
+  z-index: 1;
 }
 
 h2 { font-size: 4em;}
