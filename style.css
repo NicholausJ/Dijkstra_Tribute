@@ -168,6 +168,7 @@ ul.topnav li a {
 body {
   margin: 1.4em;
   background-color: #266A2E;
+  padding: 5vh 0 0 0;
   z-index: 1;
 }
 
