@@ -1,13 +1,37 @@
  <!DOCTYPE html>
  <html lang="en">
-  <div class="container-fluid">
+
    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <script src="https://use.fontawesome.com/28caf5a61c.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
  	  <link href="style.css" rel="stylesheet" type="text/css" />
-    <div class="row navbar" id="topnav" style="text-align:right">
+   </head>   
+   
+  <header>
+    <div class="container-fluid" id="my-header" style="text-align:right">
+      <nav id="home">
+        <ul class="topnav" id="my-topnav">
+          <li><a href="https://nicholausj.github.io">Home</a></li>
+          <li><a href="https//nicholausj.github.io/#about">About</a></li>
+          <li class="dropdown">
+            <a class="dropbtn" href="https://nicholausj.github.io/#portfolio">Portfolio</a>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="https://nicholausj.github.io/Generated_Page">Generated Page</a>
+                <a href="https://nicholausj.github.io/Dijkstra_Tribute">Dijkstra Tribute</a>
+                <a href="https://nicholausj.github.io/RQM">Random Quote</a>
+                <a href="https://nicholausj.github.io/Core_View">Core View</a>
+              </div>
+          </li>
+          <li><a href="https://nicholausj.github.io/#contact">Contact</a></li>
+          <li class="icon"><a href="javascript:void(0);" onclick="myFunction1()">&#9776;</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <div class="container-fluid">
+   <div class="row navbar" id="topnav" style="text-align:right">
     <div class="col-xs-12">
      <nav id="about">
       <ul id="header-nav">
@@ -19,8 +43,8 @@
      </nav>
     </div>
    </div>
-   </head>
   </div>
+   
   <div class="container-fluid well" id="well1">
    <body>
     <h2 class="text-center">Edsger W. Dijkstra</h2>
@@ -73,6 +97,9 @@
   </div>  
 
    <hr id="horizontal1"></hr>
+  
+     <script src="https://use.fontawesome.com/28caf5a61c.js"></script>
+  
    </body>
 
 </div>
