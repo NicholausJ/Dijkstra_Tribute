@@ -142,7 +142,7 @@ ul.topnav li a {
 }
 
 #header-nav {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   padding: 0 0 0 0;
